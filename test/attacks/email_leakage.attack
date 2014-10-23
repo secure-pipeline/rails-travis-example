@@ -10,6 +10,6 @@ Scenario: Using arachni, run the email checking module to find any addresses bei
   """
   arachni --modules=emails <url>
   """
-  Then the output should not match /Matched string:\s+.*@my_domain.com/
+  Then the output should not match /Matched string:\s+.*@my_domainds.com/
 # For more infomation on output parsing and Regex in Gauntlt, please see
 # https://github.com/gauntlt/gauntlt/wiki/Output-parsing-with-Gauntlt
